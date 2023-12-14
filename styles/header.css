@@ -1,0 +1,103 @@
+
+
+.header {
+  background-color: rgb(245, 236, 242);
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  height: 400px;
+
+  border-top: 1px solid #F0F0F0;
+  border-bottom: 1px solid #F0F0F0;
+  z-index: 4;
+}
+
+.elisa-logo {
+  width: 500px;
+  display: flex;
+
+}
+
+.header-logo {
+  position: relative;
+  top: -150px;
+}
+
+.header-title {
+  position: absolute;
+  top: 300px;
+  left: 760px;
+}
+
+.elisa-title {
+color: black;
+display: flex;
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+}
+
+.header-top {
+  position: sticky;
+  top: 10px;
+  margin-left: 1720px;
+  z-index: 3;
+}
+
+.header-top-logo {
+  width: 35px;
+  background-color: rgb(255, 192, 219);
+  border-radius: 20px;
+  border-width: 0px;
+}
+
+.header-bottom {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding-left: 500px;
+  padding-right: 500px;
+
+  margin-top: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  position: sticky;
+  top: 0px;
+  left: 0;
+  right: 0;
+  height: 60px;
+
+  border-top: 1px solid #F0F0F0;
+  border-bottom: 1px solid #F0F0F0;
+  z-index: 2;
+}
+
+.header-bottom-button {
+  background-color: white;
+  border: 0px;
+  font-family: 'Roboto Serif', serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.header-bottom-button:hover {
+  cursor: pointer;
+}
+
+.header-bottom-button:active {
+  cursor: pointer;
+  opacity: 0.5;
+}
