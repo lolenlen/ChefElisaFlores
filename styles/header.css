@@ -64,26 +64,30 @@ font-style: italic;
 .header-bottom {
   background-color: white;
   color: rgb(0, 0, 0);
-  padding-left: 500px;
-  padding-right: 500px;
-
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 400px;
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
 
   position: sticky;
   top: 0px;
-  left: 0;
-  right: 0;
-  height: 60px;
+  left: 0px;
+  right: 0px;
+  height: 65px;
 
   border-top: 1px solid #F0F0F0;
   border-bottom: 1px solid #F0F0F0;
   z-index: 2;
 }
+
+
+
 
 .header-bottom-button {
   background-color: white;
